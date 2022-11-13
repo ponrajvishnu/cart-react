@@ -72,7 +72,7 @@ function App() {
           {/* <Cart data={plans[0]}/>
           <Cart data={plans[1]}/>
           <Cart data={plans[2]}/> */}
-          { plans.map((e,i) =><Cart data={e} key={i} /> ) }
+          { plans.map((e,i) =><Cart data={e} key={i} />) }
         </div>
       </div>
     </section>
